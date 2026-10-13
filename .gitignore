@@ -1,0 +1,33 @@
+# --- Secrets: NEVER commit these ---
+.env
+*.env
+!.env.example
+
+# Certs / keys / CA
+certs/
+*.crt
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Caldera config (contains credentials)
+local.yml
+caldera-local.yml
+conf/local.yml
+
+# Elastic / Fleet tokens
+*token*
+*service-token*
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Logs and data dumps
+*.log
+data/
+esdata/
