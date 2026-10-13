@@ -14,7 +14,7 @@ I built a complete SOC pipeline to practice **detection engineering** with real 
 - **Windows + Linux endpoints** connected over a **private mesh network** with role-based access
 - **Elastic Defend (EDR)** collecting process, network, and file telemetry
 - **12M+ events ingested** — real data to hunt through with KQL and ES|QL
-- **11 detection rules I wrote myself**, mapped to MITRE ATT&CK
+- **10 detection rules I wrote myself**, mapped to MITRE ATT&CK
 - **MITRE Caldera** for adversary emulation
 
 Then I ran a Caldera attack against a Windows victim and watched the detections fire in real time.
